@@ -7,7 +7,7 @@ export const pets = [
     age: "2 years",
     gender: "Female",
     description: "Friendly and energetic dog, loves kids.",
-    image: "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1561495376-dc9c7c5b8726?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     keywords: ["dog", "friendly", "labrador", "family", "playful"],
   },
 // 15553053262
@@ -19,7 +19,7 @@ export const pets = [
     age: "3 years",
     gender: "Male",
     description: "Loyal and intelligent, great for an active home.",
-    image: "https://images.unsplash.com/photo-1558944351-cf6f5a3f1f55?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1601180964879-e9cba08d8237?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGdlcm1hbiUyMHNoZXBoZXJkfGVufDB8MHwwfHx8MA%3D%3D",
     keywords: ["dog", "loyal", "smart", "german shepherd", "active"],
   },
   {
@@ -30,7 +30,7 @@ export const pets = [
     age: "1 year",
     gender: "Female",
     description: "Curious cuddle-bug who loves sunny windows and soft blankets.",
-    image: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1602634353750-d58ec14064c6?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     keywords: ["cat", "cuddly", "curious", "calm", "indoor"],
   },
   {
@@ -41,7 +41,7 @@ export const pets = [
     age: "4 years",
     gender: "Male",
     description: "Sweet nose-on-the-ground explorer, friendly with everyone.",
-    image: "https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1586917138540-f1490b02f205?q=80&w=936&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     keywords: ["dog", "beagle", "friendly", "curious", "outdoors"],
   },
   {
@@ -52,7 +52,7 @@ export const pets = [
     age: "5 years",
     gender: "Male",
     description: "Gentle giant with a fluffy coat and a chill personality.",
-    image: "https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1606047915827-b832c389a4e3?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     keywords: ["cat", "maine coon", "fluffy", "gentle", "calm"],
   },
   {
