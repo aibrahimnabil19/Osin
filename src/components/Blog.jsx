@@ -33,7 +33,7 @@ const Blog = () => {
     <main className="max-w-6xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
       <div className="text-center max-w-2xl mx-auto mb-16">
         <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-          Our Latest <span className="text-[#E0C1C5]">Insights</span>
+          Our Latest <span className="text-[#DA507E]">Insights</span>
         </h1>
         <p className="mt-4 text-lg text-gray-500">
           Discover tips, trends, and stories from our team of developers and designers.
@@ -57,7 +57,7 @@ const Blog = () => {
                 >
                 </Image>
                 <div className="absolute top-4 left-4">
-                  <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-white/90 text-[#E0C1C5] backdrop-blur-sm shadow-sm">
+                  <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-white/90 text-[#DA507E] backdrop-blur-sm shadow-sm">
                     {post.category}
                   </span>
                 </div>
@@ -68,7 +68,7 @@ const Blog = () => {
                   <time dateTime={post.date}>{post.date}</time>
                 </div>
                 
-                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-[#E0C1C5] transition-colors">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-[#DA507E] transition-colors">
                   {post.title}
                 </h3>
                 
@@ -79,7 +79,7 @@ const Blog = () => {
                 <div className="mt-auto pt-4 border-t border-gray-100 flex items-center justify-between">
                   <a 
                     href="#" 
-                    className="inline-flex items-center text-sm font-semibold text-[#E0C1C5] hover:text-[#C2A8B0]"
+                    className="inline-flex items-center text-sm font-semibold text-[#DA507E] hover:text-[#C2A8B0]"
                   >
                     Read Article
                     <svg className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">

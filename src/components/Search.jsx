@@ -6,8 +6,8 @@ const Search = () => {
   const inputRef = useRef(null);
 
   return (
-    <main>
-      <section className="max-w-5xl mx-auto py-16">
+    <main className="">
+      <section className="max-w-5xl mx-auto py-7 ">
         <div className="bg-white rounded-2xl p-6 md:p-8">
           {/* Heading */}
           <div className="mb-4 text-center md:text-left">
@@ -98,7 +98,7 @@ const Search = () => {
             <div className="w-full md:w-auto">
               <button
                 type="submit"
-                className="w-full md:w-auto inline-flex items-center justify-center gap-3 px-5 py-3 rounded-lg bg-[#E0C1C5] text-[#575350] font-medium shadow hover:bg-[#caaeb1] focus:outline-none focus:ring-2 focus:ring-[#a89194] transition"
+                className="w-full md:w-auto inline-flex items-center justify-center gap-3 px-5 py-3 rounded-lg bg-[#DA507E] text-white font-medium shadow hover:bg-[#caaeb1] focus:outline-none focus:ring-2 focus:ring-[#a89194] transition"
                 onClick={(e) => {
                 }}
               >

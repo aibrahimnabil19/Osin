@@ -48,7 +48,7 @@ const Featured = () => {
                 </p>
 
                 <div className="mt-auto">
-                  <button className="w-full bg-[#E0C1C5] text-[#575350] font-semibold py-2 rounded hover:bg-[#d4aeb2] transition-colors">
+                  <button className="w-full bg-[#DA507E] text-white font-semibold py-2 rounded hover:bg-[#d4aeb2] transition-colors">
                     Meet {pet.name}
                   </button>
                 </div>

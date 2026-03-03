@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <main className="bg-[#E0C1C5] min-h-screen overflow-hidden">
+    <main className="bg-linear-to-b from-[#E0C1C5] to-white min-h-screen overflow-hidden">
       <section className="max-w-5xl mx-auto px-4 sm:px-6 min-h-screen flex flex-col md:flex-row items-center justify-center gap-8 pt-20 md:pt-0">
 
         <div className="w-full md:w-1/2 flex justify-center items-center">
@@ -20,12 +20,12 @@ const Hero = () => {
         <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left">
           <h1 className="text-4xl sm:text-5xl font-bold text-[#575350] leading-tight">
             Find Your{' '}
-            <span className="text-chart-1">Perfect Companion</span>
+            <span className="text-[#DA507E]">Perfect Companion</span>
           </h1>
           <p className="text-lg text-[#575350] mt-4">
             Discover your new best friend and give them a loving home.
           </p>
-          <button className="bg-[#575350] text-white px-6 py-3 rounded-full mt-6 hover:bg-[#4a4745] transition duration-300 self-center md:self-start">
+          <button className="bg-[#DA507E] text-white px-6 py-3 rounded-full mt-6 hover:bg-[#4a4745] transition duration-300 self-center md:self-start">
             Find a pet
           </button>
         </div>
