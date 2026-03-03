@@ -1,5 +1,6 @@
 import Adoption from "@/components/Adoption";
 import Blog from "@/components/Blog";
+import FAQS from "@/components/FAQS";
 import Featured from "@/components/Featured";
 import Hero from "@/components/Hero";
 import Search from "@/components/Search";
@@ -15,6 +16,7 @@ export default function Home() {
       <Adoption/>
       <Testimonials/>
       <Blog/>
+      <FAQS/>
     </div>
   );
 }

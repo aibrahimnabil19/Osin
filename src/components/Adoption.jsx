@@ -4,7 +4,6 @@ import React from 'react'
 const Adoption = () => {
   return (
     <main className="bg-[#FFF8F0] max-w-full flex justify-between items-center">
-        {/* <section className=""> */}
             <Image
             src="/catwoman.jpg"
             width={500}
@@ -29,7 +28,6 @@ const Adoption = () => {
                 </p>
             </div>
 
-        {/* </section> */}
 
     </main>
   )
