@@ -11,7 +11,7 @@ const Testimonials = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           
-          <div className="bg-[#F5F5F5] rounded-xl p-6 shadow-sm relative pb-20 overflow-hidden">
+          <div className="bg-[#F5F5F5] rounded-xl p-6 relative pb-20 overflow-hidden">
             <p className="text-gray-700 leading-relaxed italic">
              Adopting from Ọsin was the best decision we made! The process was incredibly smooth, and we found our perfect furry friend in no time. The platform is so easy to use.
             </p>
@@ -28,7 +28,7 @@ const Testimonials = () => {
           </div>
 
           
-          <div className="bg-[#F5F5F5] rounded-xl p-6 shadow-sm relative pb-20 overflow-hidden">
+          <div className="bg-[#F5F5F5] rounded-xl p-6 relative pb-20 overflow-hidden">
             <p className="text-gray-700 leading-relaxed italic">
              I was looking for an older cat, and the detailed profiles made it so simple to find a match. Whiskers settled in immediately. Thank you for making this possible!
             </p>
@@ -44,7 +44,7 @@ const Testimonials = () => {
             </div>
           </div>
 
-          <div className="bg-[#F5F5F5] rounded-xl p-6 shadow-sm relative pb-20 overflow-hidden">
+          <div className="bg-[#F5F5F5] rounded-xl p-6 relative pb-20 overflow-hidden">
             <p className="text-gray-700 leading-relaxed italic">
              As a first-time pet owner, I appreciated how transparent and supportive the whole experience was. Meeting Bella was love at first sight. Highly recommend!
             </p>
