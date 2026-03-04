@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { pets } from "../../data";
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Featured = () => {
 
@@ -48,9 +49,11 @@ const Featured = () => {
                 </p>
 
                 <div className="mt-auto">
-                  <button className="w-full bg-[#DA507E] text-white font-semibold py-2 rounded hover:bg-[#d4aeb2] transition-colors">
-                    Meet {pet.name}
-                  </button>
+                  <Link href={`/petCard/${pet.id}`} className="w-full">
+                    <button className="w-full bg-[#DA507E] text-white font-semibold py-2 rounded hover:bg-[#d4aeb2] transition-colors">
+                      Meet {pet.name}
+                    </button>
+                  </Link>
                 </div>
               </div>
 

@@ -14,7 +14,8 @@ import Link from "next/link"
 
 const PetCollections = ({ pets }) =>{
   // console.log(pets.title)
-  const { title, description, breed, image } = pets
+  // const { title, description, breed, image } = pets
+  const { id, title, description, breed, image } = pets
   console.log(image)
 //const PetCollections = ({ title, description, image, breed }) =>{
   return (
@@ -37,7 +38,11 @@ const PetCollections = ({ pets }) =>{
         </CardDescription>
       </CardHeader>
       <CardFooter>
-        <Link className="w-full" href={"/petCard"}><Button className="w-full bg-[#E0C1C5] text-[#575350]">Adopt Now</Button></Link>
+        <Link className="w-full" href={`/petCard/${id}`}>
+          <Button className="w-full bg-[#E0C1C5] text-[#575350] hover:bg-[#d4aeb2]">
+            Adopt Now
+          </Button>
+        </Link>
       </CardFooter>
     </Card>
     
