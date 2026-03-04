@@ -6,7 +6,6 @@ const Footer = () => {
     <footer className="bg-[#1F2937] text-white">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-10 flex flex-col gap-10 md:flex-row md:justify-between">
 
-        {/* Brand / Copyright / Socials */}
         <section className="flex flex-col gap-6 items-center md:items-start text-center md:text-left">
           <div className="flex items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="21" viewBox="0 0 31 21"
@@ -17,7 +16,7 @@ const Footer = () => {
               <path d="M13.5 14.5h6v6h-6z"/>
               <path d="M18.5 2.8l.4 1.3 1.3.4-1.3.4-.4 1.3-.4-1.3-1.3-.4 1.3-.4.4-1.3z"/>
             </svg>
-            <h4 className="font-semibold">Aso</h4>
+            <h4 className="font-semibold">Ọsin</h4>
           </div>
 
           <div className="text-sm text-gray-200">

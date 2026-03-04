@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <main className="bg-linear-to-b from-[#E0C1C5] to-white min-h-screen overflow-hidden">
+    <main className="relative bg-linear-to-b from-[#E0C1C5] to-white min-h-screen overflow-hidden">
       <section className="max-w-5xl mx-auto px-4 sm:px-6 min-h-screen flex flex-col md:flex-row items-center justify-center gap-8 pt-20 md:pt-0">
 
-        <div className="w-full md:w-1/2 flex justify-center items-center">
+        <div className="w-full md:w-1/2 flex justify-center items-center z-50">
           <Image
             src="/hero-image.png"
             alt="Hero Image"
@@ -16,6 +16,7 @@ const Hero = () => {
             priority
           />
         </div>
+        {/* <div className="w-lg"></div> */}
 
         <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left">
           <h1 className="text-4xl sm:text-5xl font-bold text-[#575350] leading-tight">

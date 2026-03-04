@@ -44,17 +44,16 @@ const FAQS = () => {
   const toggle = (id) => setOpenId(openId === id ? null : id);
 
   return (
-    <div className="min-h-screen bg-[#FBF5EA] py-20 px-6 relative overflow-hidden">
-      {/* decorative blobs */}
+    <div className="min-h-screen bg-linear-to-t from-[#E0C1C5] to-white py-16 px-6 relative overflow-hidden">
       <div
-        className="absolute -top-32 -right-32 w-[500px] h-[500px] pointer-events-none"
+        className="absolute -top-32 -right-32 w-125 h-125 pointer-events-none"
         style={{
           background:
-            'radial-gradient(circle, #F9D98A44 0%, transparent 70%)',
+            'bg-linear-to-t from-[#E0C1C5]',
         }}
       />
       <div
-        className="absolute -bottom-20 -left-20 w-[400px] h-[400px] pointer-events-none"
+        className="absolute -bottom-20 -left-20 w-100 h-100 pointer-events-none"
         style={{
           background:
             'radial-gradient(circle, #F4A26144 0%, transparent 70%)',
@@ -62,14 +61,14 @@ const FAQS = () => {
       />
 
       <div className="max-w-3xl mx-auto relative z-10">
-        <span className="inline-block text-xs font-semibold tracking-widest uppercase text-[#C97B3A] bg-[#FDEBD0] px-4 py-1 rounded-full mb-5">
+        <span className="inline-block text-xs font-semibold tracking-widest uppercase text-[#DA507E]  px-4 py-1 rounded-full mb-5">
           Got questions?
         </span>
 
-        <h2 className="font-serif text-[#3B2F1E] font-extrabold leading-tight mb-4 text-[40px] md:text-[56px] lg:text-[68px]">
+        <h2 className=" text-[#575350] font-extrabold leading-tight mb-4 text-[40px] md:text-[56px] lg:text-[68px]">
           We have
           <br />
-          <em className="not-italic font-light text-[#C97B3A]">answers.</em>
+          <em className="not-italic font-light text-[#DA507E]">answers.</em>
         </h2>
 
         <p className="text-sm md:text-base text-[#9E8972] font-light max-w-md mb-14">
@@ -83,18 +82,18 @@ const FAQS = () => {
             return (
               <div
                 key={faq.id}
-                className={`bg-white rounded-xl border transition-shadow transition-colors duration-300 overflow-hidden ${
-                  isOpen ? 'border-[#C97B3A] shadow-[0_8px_30px_rgba(201,123,58,0.08)]' : 'border-[#EDE3D4]'
+                className={`bg-white rounded-xl border transition-shadow duration-300 overflow-hidden ${
+                  isOpen ? 'border-[#DA507E] shadow-[0_8px_30px_rgba(201,123,58,0.08)]' : 'border-[#EDE3D4]'
                 }`}
               >
                 <button
                   type="button"
                   aria-expanded={isOpen}
                   onClick={() => toggle(faq.id)}
-                  className="w-full text-left flex items-center gap-4 p-5 hover:bg-[#FFFAF4] focus:outline-none"
+                  className="w-full text-left flex items-center gap-4 p-5 hover:bg-[#ead3db] focus:outline-none"
                 >
                   <span
-                    className={`w-11 h-11 flex items-center justify-center rounded-lg text-xl flex-shrink-0 transition-colors duration-300 ${
+                    className={`w-11 h-11 flex items-center justify-center rounded-lg text-xl shrink-0 transition-colors duration-300 ${
                       isOpen ? 'bg-[#FDEBD0]' : 'bg-[#FBF5EA]'
                     }`}
                     aria-hidden
@@ -102,15 +101,15 @@ const FAQS = () => {
                     {faq.icon}
                   </span>
 
-                  <span className="flex-1 font-serif font-semibold text-[#3B2F1E] text-base">
+                  <span className="flex-1  font-semibold text-[#575350] text-base">
                     {faq.question}
                   </span>
 
                   <span
-                    className={`w-7 h-7 rounded-full border flex items-center justify-center text-sm flex-shrink-0 transition-transform duration-300 ${
+                    className={`w-7 h-7 rounded-full border flex items-center justify-center text-sm shrink-0 transition-transform duration-300 ${
                       isOpen
-                        ? 'bg-[#C97B3A] border-[#C97B3A] text-white rotate-180'
-                        : 'border-[#EDE3D4] text-[#9E8972]'
+                        ? 'bg-[#DA507E] border-[#DA507E] text-white rotate-180'
+                        : 'border-[#E0C1C5] text-[#9E8972]'
                     }`}
                     aria-hidden
                   >
@@ -121,7 +120,7 @@ const FAQS = () => {
                 {/* answer */}
                 <div
                   className={`px-0 transition-[max-height] duration-300 ease-in-out overflow-hidden ${
-                    isOpen ? 'max-h-[400px]' : 'max-h-0'
+                    isOpen ? 'max-h-100' : 'max-h-0'
                   }`}
                 >
                   <div className="px-6 sm:px-6 md:px-6 lg:px-6 pb-6">

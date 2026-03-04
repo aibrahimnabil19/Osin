@@ -30,7 +30,7 @@ const blogPosts = [
 
 const Blog = () => {
   return (
-    <main className="max-w-6xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
+    <main className="max-w-6xl mx-auto px-4 py-7 sm:px-6 lg:px-8">
       <div className="text-center max-w-2xl mx-auto mb-16">
         <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
           Our Latest <span className="text-[#DA507E]">Insights</span>
