@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Hero = () => {
   return (
@@ -26,9 +27,9 @@ const Hero = () => {
           <p className="text-lg text-[#575350] mt-4">
             Discover your new best friend and give them a loving home.
           </p>
-          <button className="bg-[#DA507E] text-white px-6 py-3 rounded-full mt-6 hover:bg-[#4a4745] transition duration-300 self-center md:self-start">
+          <Link href={"/pets"} className="bg-[#DA507E] text-white px-6 py-3 rounded-full mt-6 hover:bg-[#4a4745] transition duration-300 self-center md:self-start">
             Find a pet
-          </button>
+          </Link>
         </div>
 
       </section>

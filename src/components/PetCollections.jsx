@@ -9,6 +9,7 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import Image from "next/image"
+import Link from "next/link"
 // import pets from "@/data"
 
 const PetCollections = ({ pets }) =>{
@@ -36,7 +37,7 @@ const PetCollections = ({ pets }) =>{
         </CardDescription>
       </CardHeader>
       <CardFooter>
-        <Button className="w-full bg-[#DA507E]">Adopt Now</Button>
+        <Link className="w-full" href={"/petCard"}><Button className="w-full bg-[#E0C1C5] text-[#575350]">Adopt Now</Button></Link>
       </CardFooter>
     </Card>
     

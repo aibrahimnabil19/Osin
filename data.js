@@ -9,6 +9,9 @@ export const pets = [
     description: "Friendly and energetic dog, loves kids.",
     image: "https://images.unsplash.com/photo-1561495376-dc9c7c5b8726?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     keywords: ["dog", "friendly", "labrador", "family", "playful"],
+    price: "₦120,000",
+    careInstructions: "Daily exercise, weekly brushing, balanced diet, regular vet check-ups and vaccinations.",
+    petDetail: "House-trained, good with children, needs moderate activity."
   },
 // 15553053262
   {
@@ -21,6 +24,9 @@ export const pets = [
     description: "Loyal and intelligent, great for an active home.",
     image: "https://images.unsplash.com/photo-1601180964879-e9cba08d8237?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGdlcm1hbiUyMHNoZXBoZXJkfGVufDB8MHwwfHx8MA%3D%3D",
     keywords: ["dog", "loyal", "smart", "german shepherd", "active"],
+    price: "₦180,000",
+    careInstructions: "Daily exercise and training, regular grooming, high-quality protein diet, socialization and routine vet care.",
+    petDetail: "Active and intelligent; ideal for an owner who can provide training and exercise."
   },
   {
     id: 3,
@@ -32,6 +38,9 @@ export const pets = [
     description: "Curious cat who loves windows and blankets.",
     image: "https://images.unsplash.com/photo-1602634353750-d58ec14064c6?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     keywords: ["cat", "cuddly", "curious", "calm", "indoor"],
+    price: "₦40,000",
+    careInstructions: "Keep indoors, clean litter box regularly, interactive play daily, routine vaccinations and check-ups.",
+    petDetail: "Curious and affectionate; great as an indoor companion."
   },
   {
     id: 4,
@@ -43,6 +52,9 @@ export const pets = [
     description: "Sweet nose-on-the-ground explorer, friendly with everyone.",
     image: "https://images.unsplash.com/photo-1586917138540-f1490b02f205?q=80&w=936&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     keywords: ["dog", "beagle", "friendly", "curious", "outdoors"],
+    price: "₦90,000",
+    careInstructions: "Daily walks and scent games, check ears regularly, moderate grooming and regular vet visits.",
+    petDetail: "Sociable and curious; enjoys outdoor exploration and family time."
   },
   {
     id: 5,
@@ -54,6 +66,9 @@ export const pets = [
     description: "Gentle giant with a fluffy coat and a chill personality.",
     image: "https://images.unsplash.com/photo-1606047915827-b832c389a4e3?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     keywords: ["cat", "maine coon", "fluffy", "gentle", "calm"],
+    price: "₦200,000",
+    careInstructions: "Regular grooming to prevent matting, large litter space, high-quality food, and routine vet care.",
+    petDetail: "Large and gentle; needs space and regular brushing."
   },
   {
     id: 6,
@@ -65,6 +80,9 @@ export const pets = [
     description: "Happy-go-lucky pup who loves fetch and belly rubs.",
     image: "https://images.unsplash.com/photo-1507149833265-60c372daea22?auto=format&fit=crop&w=1200&q=80",
     keywords: ["dog", "golden retriever", "playful", "friendly", "fetch"],
+    price: "₦170,000",
+    careInstructions: "Daily exercise and play, weekly brushing, training, and regular vet check-ups.",
+    petDetail: "Playful and family-friendly; eager to please and great with kids."
   },
   {
     id: 7,
@@ -76,6 +94,9 @@ export const pets = [
     description: "Quiet, gentle bunny who enjoys head rubs and leafy greens.",
     image: "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?auto=format&fit=crop&w=1200&q=80",
     keywords: ["rabbit", "holland lop", "gentle", "quiet", "small pet"],
+    price: "₦25,000",
+    careInstructions: "Provide a safe indoor hutch, fresh hay daily, leafy greens, gentle handling, and regular nail trims.",
+    petDetail: "Quiet and gentle; best kept as an indoor pet with supervision around small children."
   },
   {
     id: 8,
@@ -87,6 +108,9 @@ export const pets = [
     description: "Goofy, energetic, and learning fast. Ready for adventures.",
     image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     keywords: ["dog", "mixed breed", "energetic", "goofy", "trainable"],
+    price: "₦50,000",
+    careInstructions: "Regular walks, basic obedience training, balanced diet, and routine vet care.",
+    petDetail: "Energetic and trainable; great for active families or first-time owners."
   },
   {
     id: 9,
@@ -98,6 +122,9 @@ export const pets = [
     description: "Chatty, affectionate, and loves being part of your day.",
     image: "https://images.unsplash.com/photo-1543852786-1cf6624b9987?auto=format&fit=crop&w=1200&q=80",
     keywords: ["cat", "siamese", "affectionate", "talkative", "social"],
+    price: "₦120,000",
+    careInstructions: "Needs social interaction and play, regular grooming, mental stimulation, and vet checks.",
+    petDetail: "Vocal and social; bonds closely with owners and enjoys attention."
   },
   {
     id: 10,
@@ -109,6 +136,9 @@ export const pets = [
     description: "Compact cuddle machine. Great apartment companion.",
     image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     keywords: ["dog", "french bulldog", "apartment", "cuddly", "easygoing"],
+    price: "₦250,000",
+    careInstructions: "Avoid overheating, take short walks, monitor breathing, maintain dental care and regular vet visits.",
+    petDetail: "Low energy and apartment-friendly; brachycephalic breed that needs gentle care."
   },
   {
     id: 11,
@@ -120,6 +150,9 @@ export const pets = [
     description: "Bright, social little buddy who loves gentle whistling.",
     image: "https://images.unsplash.com/photo-1520808663317-647b476a81b9?auto=format&fit=crop&w=1200&q=80",
     keywords: ["bird", "budgie", "social", "small pet", "chirpy"],
+    price: "₦8,000",
+    careInstructions: "Fresh seed mix, clean water, regular cage cleaning, social interaction and safe toys.",
+    petDetail: "Chirpy and social; enjoys interaction and gentle whistling sessions."
   },
   {
     id: 12,
@@ -131,6 +164,9 @@ export const pets = [
     description: "Calm and clever, enjoys short walks and lots of love.",
     image: "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=1200&q=80",
     keywords: ["dog", "poodle", "calm", "smart", "low shedding"],
+    price: "₦150,000",
+    careInstructions: "Regular grooming, mental stimulation, short daily walks, and routine vet care.",
+    petDetail: "Intelligent and low-shedding; good for allergy-sensitive households."
   },
   {
     id: 13,
@@ -142,6 +178,9 @@ export const pets = [
     description: "Confident lap-cat who purrs like an engine and loves chin scratches.",
     image: "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=1200&q=80",
     keywords: ["cat", "tabby", "affectionate", "lap", "purring"],
+    price: "₦45,000",
+    careInstructions: "Regular brushing, interactive play, indoor living recommended, and routine vet checks.",
+    petDetail: "Affectionate lap cat who enjoys quiet time and gentle petting."
   },
   {
     id: 14,
@@ -153,6 +192,9 @@ export const pets = [
     description: "Smart and energetic, thrives with games, runs, and training.",
     image: "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?auto=format&fit=crop&w=1200&q=80",
     keywords: ["dog", "border collie", "smart", "energetic", "training"],
+    price: "₦220,000",
+    careInstructions: "High daily exercise and mental stimulation, consistent training, and regular grooming and vet care.",
+    petDetail: "Very energetic and intelligent; best for active owners who can provide training."
   },
   {
     id: 15,
@@ -164,6 +206,9 @@ export const pets = [
     description: "Soft, calm companion who enjoys quiet rooms.",
     image: "https://images.unsplash.com/photo-1606213651356-0272d8f818b2?auto=format&fit=crop&w=1200&q=80",
     keywords: ["cat", "british shorthair", "calm", "gentle", "indoor"],
+    price: "₦130,000",
+    careInstructions: "Moderate grooming, calm environment, routine feeding schedule and vet checks.",
+    petDetail: "Calm and steady; prefers quiet homes and predictable routines."
   },
   {
     id: 16,
@@ -175,6 +220,9 @@ export const pets = [
     description: "Soft bunny who loves hopping around and nibbling herbs.",
     image: "https://images.unsplash.com/photo-1555696958-c5049b866f6a?auto=format&fit=crop&w=1200&q=80",
     keywords: ["rabbit", "mini rex", "soft", "gentle", "small pet"],
+    price: "₦20,000",
+    careInstructions: "Provide plenty of hay, safe hutch, fresh vegetables, gentle handling and regular nail trims.",
+    petDetail: "Soft and curious; enjoys hopping and nibbling herbs."
   },
   {
     id: 17,
@@ -186,6 +234,9 @@ export const pets = [
     description: "Big teddy bear energy, loyal and calm with a protective streak.",
     image: "https://images.unsplash.com/photo-1560807707-8cc77767d783?auto=format&fit=crop&w=1200&q=80",
     keywords: ["dog", "rottweiler", "loyal", "calm", "protective"],
+    price: "₦200,000",
+    careInstructions: "Early socialization, clear leadership, regular exercise, and routine vet care with attention to joint health.",
+    petDetail: "Loyal and protective; best with experienced owners who can provide proper training."
   },
   {
     id: 18,
@@ -197,6 +248,9 @@ export const pets = [
     description: "Gentle snuggle expert.",
     image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     keywords: ["dog", "cavalier", "gentle", "cuddly", "companion"],
+    price: "₦160,000",
+    careInstructions: "Regular grooming, short daily walks, dental care, and affectionate handling.",
+    petDetail: "Gentle and affectionate; excels as a lap companion."
   },
   {
     id: 19,
@@ -208,6 +262,9 @@ export const pets = [
     description: "Vibrant solo swimmer with a flair for dramatic fin poses.",
     image: "https://images.unsplash.com/photo-1520301255226-bf5f144451c1?auto=format&fit=crop&w=1200&q=80",
     keywords: ["fish", "betta", "colorful", "aquarium", "low space"],
+    price: "₦3,500",
+    careInstructions: "Keep in clean, warm water (5L+), feed sparingly, perform regular water changes and maintain stable temperature.",
+    petDetail: "Solo swimmer; vibrant and low-space but needs stable tank conditions."
   },
   {
     id: 20,
@@ -219,6 +276,9 @@ export const pets = [
     description: "Smiling fluff cloud who loves people and playful outdoor time.",
     image: "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=1200&q=80",
     keywords: ["dog", "samoyed", "fluffy", "friendly", "outdoors"],
+    price: "₦280,000",
+    careInstructions: "Regular grooming to manage thick coat, daily exercise, and social interaction; suited to cooler climates.",
+    petDetail: "Very fluffy and social; needs regular brushing and outdoor play."
   },
   {
     id: 21,
@@ -230,6 +290,9 @@ export const pets = [
     description: "Sweet, relaxed cat who goes limp in your arms and loves cuddles.",
     image: "https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?auto=format&fit=crop&w=1200&q=80",
     keywords: ["cat", "ragdoll", "cuddly", "relaxed", "gentle"],
+    price: "₦180,000",
+    careInstructions: "Gentle handling, regular grooming, indoor life preferred, and routine dental and health checks.",
+    petDetail: "Extremely relaxed and cuddly; enjoys being held and close contact."
   },
   {
     id: 22,
@@ -241,6 +304,9 @@ export const pets = [
     description: "Chatty adventure buddy with lots of personality and energy.",
     image: "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=1200&q=80",
     keywords: ["dog", "husky", "energetic", "talkative", "adventure"],
+    price: "₦210,000",
+    careInstructions: "High daily exercise, secure yard, socialization, and grooming during shedding seasons.",
+    petDetail: "Independent and energetic; needs an active owner and secure environment."
   },
   {
     id: 23,
@@ -252,6 +318,9 @@ export const pets = [
     description: "Tiny but fearless, loves blankets, squeaky toys, and burrowing.",
     image: "https://images.unsplash.com/photo-1525253086316-d0c936c814f8?auto=format&fit=crop&w=1200&q=80",
     keywords: ["dog", "dachshund", "small", "playful", "burrow"],
+    price: "₦80,000",
+    careInstructions: "Protect the back from jumping, provide safe burrowing toys, short walks, and regular dental care.",
+    petDetail: "Playful burrower; watch for back strain and limit stairs/jumping."
   },
   {
     id: 24,
@@ -263,6 +332,9 @@ export const pets = [
     description: "Gentle squeaker who loves veggies and cozy hideouts.",
     image: "https://images.unsplash.com/photo-1610737241336-371badac3b66?auto=format&fit=crop&w=1200&q=80",
     keywords: ["guinea pig", "small pet", "gentle", "friendly", "veggies"],
+    price: "₦12,000",
+    careInstructions: "Provide fresh veggies daily, roomy cage with hiding spots, gentle handling and regular cage cleaning.",
+    petDetail: "Social and gentle; thrives with regular interaction and a companion of same species."
   },
   {
     id: 25,
@@ -274,6 +346,9 @@ export const pets = [
     description: "Sweet senior who enjoys calm company, and naps.",
     image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     keywords: ["dog", "shih tzu", "senior", "calm", "companion"],
+    price: "₦140,000",
+    careInstructions: "Regular grooming, gentle short walks, monitor joint health, and provide a comfortable resting area.",
+    petDetail: "Calm senior companion; prefers relaxed routines and gentle care."
   },
   {
     id: 26,
@@ -285,6 +360,9 @@ export const pets = [
     description: "Sleek shadow-cat who follows you around like a little guardian.",
     image: "https://images.unsplash.com/photo-1543852786-1cf6624b9987?auto=format&fit=crop&w=1200&q=80",
     keywords: ["cat", "bombay", "sleek", "affectionate", "social"],
+    price: "₦100,000",
+    careInstructions: "Indoor play and interaction, regular brushing, and routine vet checks.",
+    petDetail: "Sleek and affectionate; often follows owners and craves companionship."
   },
   {
     id: 27,
@@ -296,6 +374,9 @@ export const pets = [
     description: "Short legs, big attitude, loves zoomies and being everyone’s friend.",
     image: "https://images.unsplash.com/photo-1546975490-8c11b3b9a1fd?auto=format&fit=crop&w=1200&q=80",
     keywords: ["dog", "corgi", "playful", "friendly", "zoomies"],
+    price: "₦160,000",
+    careInstructions: "Moderate walks, watch weight to protect spine, regular play and grooming.",
+    petDetail: "Playful and social; needs exercise but watch for weight gain due to short legs."
   },
   {
     id: 28,
@@ -307,6 +388,9 @@ export const pets = [
     description: "Curious whistler who enjoys gentle music and shoulder rides.",
     image: "https://images.unsplash.com/photo-1544923408-75c5cef46f14?auto=format&fit=crop&w=1200&q=80",
     keywords: ["bird", "cockatiel", "whistling", "social", "smart"],
+    price: "₦15,000",
+    careInstructions: "Clean cage regularly, provide fresh veggies and seeds, social time daily, and toys for enrichment.",
+    petDetail: "Curious and whistling; enjoys social interaction and light training."
   },
   {
     id: 29,
@@ -318,6 +402,9 @@ export const pets = [
     description: "Goofy athlete who loves fetch, kids, and big happy grins.",
     image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     keywords: ["dog", "boxer", "goofy", "active", "family"],
+    price: "₦170,000",
+    careInstructions: "High exercise needs, playtime with family, regular vet checks and joint health monitoring.",
+    petDetail: "Energetic and great with kids; needs plenty of play and supervision."
   },
   {
     id: 30,
@@ -329,6 +416,9 @@ export const pets = [
     description: "Elegant floof who prefers calm vibes, soft brushing, and naps.",
     image: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=1200&q=80",
     keywords: ["cat", "persian", "fluffy", "calm", "indoor"],
+    price: "₦220,000",
+    careInstructions: "Daily grooming to prevent mats, regular eye cleaning, indoor environment and routine vet visits.",
+    petDetail: "High-maintenance coat; best suited to calm indoor homes and owners who enjoy grooming."
   },
 ];
 export default pets
