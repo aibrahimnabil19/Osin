@@ -2,6 +2,7 @@ import { Geist, Geist_Mono, Fredoka, Inter} from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Script from 'next/script'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,6 +33,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${fredoka.variable} ${inter.variable} ${geistSans.variable} ${geistMono.variable}`}>
+      <head>
+        <Script
+          src="https://kit.fontawesome.com/ab3f556224.js"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+      </head>
       <body
         className={`antialiased`}
       >
