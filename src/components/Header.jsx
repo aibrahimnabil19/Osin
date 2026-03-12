@@ -78,7 +78,7 @@ const Header = () => {
           <nav className="bg-white w-[90vw] max-w-sm mx-auto rounded-xl shadow-lg border border-[#e6d0d4] py-4 flex flex-col items-center gap-2 font-semibold text-[#575350]">
             <Link href="/" onClick={() => setMenuOpen(false)} className="w-full text-center py-2">Home</Link>
             <Link href="/pets" onClick={() => setMenuOpen(false)} className="w-full text-center py-2">Adopt a Pet</Link>
-            <Link href="/catalogue" onClick={() => setMenuOpen(false)} className="w-full text-center py-2">Favourites</Link>
+            <Link href="/favourites" onClick={() => setMenuOpen(false)} className="w-full text-center py-2">Favourites</Link>
             <Link href="/about" onClick={() => setMenuOpen(false)} className="w-full text-center py-2">Applications</Link>
             <Link href="/contact" onClick={() => setMenuOpen(false)} className="w-full text-center py-2">Contact Us</Link>
           </nav>
