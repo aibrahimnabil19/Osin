@@ -1,9 +1,8 @@
-// app/favourites/page.jsx
 "use client";
 import React from "react";
 import PetCollections from "@/components/PetCollections";
 import useFavorites from "@/utils/useFavorites";
-import pets from "@/data"; // adjust path if needed
+import pets from '../../../data'
 import Link from "next/link";
 
 const FavouritesPage = () => {

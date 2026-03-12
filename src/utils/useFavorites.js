@@ -1,4 +1,3 @@
-// utils/useFavorites.js
 "use client";
 import { useEffect, useState } from "react";
 

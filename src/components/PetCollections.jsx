@@ -1,4 +1,3 @@
-// components/PetCollections.jsx
 "use client";
 import React from "react";
 import { Badge } from "@/components/ui/badge";
@@ -16,7 +15,6 @@ import Link from "next/link";
 import FavoriteButton from "@/components/FavoriteButton";
 
 const PetCollections = ({ pets }) => {
-  // your data uses 'name' in the data file; fall back to title for compatibility
   const { id, name, title, description, breed, image } = pets;
   const displayTitle = title || name || "Unnamed";
 
