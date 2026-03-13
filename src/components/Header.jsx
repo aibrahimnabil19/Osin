@@ -10,7 +10,7 @@ const navLinks = [
   { href: '/pets', label: 'Adopt a Pet' },
   { href: '/favourites', label: 'Favourites' },
   { href: '/applications', label: 'Applications' },
-  { href: '/contact', label: 'Contact Us' },
+  { href: '#', label: 'Contact Us' },
 ]
 
 const Header = () => {
