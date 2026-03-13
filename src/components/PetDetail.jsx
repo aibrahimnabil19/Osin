@@ -1,8 +1,11 @@
 'use client';
-import { useState } from 'react';
+
+import { useState, useContext } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ChevronDown, ArrowLeft, MapPin, Calendar, Tag } from 'lucide-react';
+import { ChevronDown, ArrowLeft, Calendar, Tag } from 'lucide-react';
+import { PetContext } from '@/context/PetContext';
+import AdoptModal from '@/components/AdoptModal';
 
 const CollapsibleSection = ({ title, children, icon }) => {
   const [open, setOpen] = useState(false);
@@ -36,7 +39,10 @@ const CollapsibleSection = ({ title, children, icon }) => {
   );
 };
 
-const PetDetail = ({ pet }) => {
+export default function PetDetail({ pet }) {
+  const { addDraftApplication } = useContext(PetContext);
+  const [modalOpen, setModalOpen] = useState(false);
+
   if (!pet) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-[#FAFAFB]">
@@ -44,6 +50,11 @@ const PetDetail = ({ pet }) => {
       </div>
     );
   }
+
+  const handleAdoptClick = () => {
+    addDraftApplication(pet);
+    setModalOpen(true);
+  };
 
   return (
     <main className=" bg-[#FAFAFB]">
@@ -60,26 +71,20 @@ const PetDetail = ({ pet }) => {
       <section className="max-w-5xl mx-auto px-4 py-8">
         <div className="bg-white rounded-3xl shadow-sm border border-[#F0E4E6] overflow-hidden">
           <div className="flex flex-col md:flex-row">
-
             <div className="md:w-1/2 relative">
               <div className="relative h-72 md:h-full min-h-90">
                 <Image
-                  src={pet.image}
+                  src={pet.imageUrl || pet.image || '/placeholder.png'}
                   alt={pet.name}
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
                   priority
                 />
-
-                <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-[#DA507E] font-bold text-sm px-3 py-1.5 rounded-full shadow">
-                  {pet.price}
-                </div>
               </div>
             </div>
 
             <div className="md:w-1/2 flex flex-col p-7 gap-5">
-
               <span className="self-start inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-widest text-[#DA507E] bg-[#FDE8EE] px-3 py-1 rounded-full">
                 <Tag size={11} />
                 {pet.breed}
@@ -111,31 +116,34 @@ const PetDetail = ({ pet }) => {
                   title="Care Instructions"
                   icon={<span>🌿</span>}
                 >
-                  {pet.careInstructions}
+                  {pet.careInstructions || 'No special care instructions provided.'}
                 </CollapsibleSection>
 
                 <CollapsibleSection
                   title="Pet Details"
                   icon={<span>🐾</span>}
                 >
-                  {pet.petDetail}
+                  {pet.petDetail || 'No extra details.'}
                 </CollapsibleSection>
               </div>
 
               <div className="mt-auto pt-2">
-                <button className="w-full bg-[#DA507E] hover:bg-[#c4446e] active:scale-[0.98] text-white font-bold py-3.5 rounded-xl transition-all duration-200 shadow-md shadow-[#DA507E]/20 text-sm tracking-wide">
-                  Adopt {pet.name} · {pet.price}
+                <button
+                  onClick={handleAdoptClick}
+                  className="w-full bg-[#DA507E] hover:bg-[#c4446e] active:scale-[0.98] text-white font-bold py-3.5 rounded-xl transition-all duration-200 shadow-md shadow-[#DA507E]/20 text-sm tracking-wide"
+                >
+                  Adopt {pet.name}
                 </button>
                 <p className="text-center text-xs text-[#B0A09C] mt-3">
-                  No commitment. Ask us anything first.
+                  No commitment. We’ll guide you through the application.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <AdoptModal open={modalOpen} onClose={() => setModalOpen(false)} petCount={1} />
     </main>
   );
-};
-
-export default PetDetail;
+}
